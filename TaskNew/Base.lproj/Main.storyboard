@@ -70,18 +70,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Enter Text Here" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2N9-RS-tSl">
-                                <rect key="frame" x="-25" y="-30" width="97" height="30"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="82" y="176" width="260" height="46"/>
-                                </variation>
-                                <connections>
-                                    <outlet property="delegate" destination="Gdv-Tv-3NK" id="x98-z2-YBB"/>
-                                </connections>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p4u-go-dd9">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <animations/>
@@ -94,19 +82,31 @@
                                     <segue destination="BYZ-38-t0r" kind="show" identifier="show" id="DbZ-BT-Omw"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Enter Text Here" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2N9-RS-tSl">
+                                <rect key="frame" x="-25" y="-30" width="97" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="82" y="176" width="260" height="46"/>
+                                </variation>
+                                <connections>
+                                    <outlet property="delegate" destination="Gdv-Tv-3NK" id="x98-z2-YBB"/>
+                                </connections>
+                            </textField>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="2N9-RS-tSl"/>
                                 <exclude reference="p4u-go-dd9"/>
+                                <exclude reference="2N9-RS-tSl"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
-                                <include reference="2N9-RS-tSl"/>
                                 <include reference="p4u-go-dd9"/>
+                                <include reference="2N9-RS-tSl"/>
                             </mask>
                         </variation>
                     </view>
@@ -139,6 +139,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="S4O-Kf-YYs"/>
+        <segue reference="DbZ-BT-Omw"/>
     </inferredMetricsTieBreakers>
 </document>
