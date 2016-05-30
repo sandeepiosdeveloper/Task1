@@ -13,10 +13,11 @@
 @end
 
 @implementation AppDelegate
-
+@synthesize arr;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    arr=[[NSMutableArray alloc]init];
     return YES;
 }
 

@@ -15,6 +15,7 @@
 		4C8941621CFC48D40042E027 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8941601CFC48D40042E027 /* LaunchScreen.storyboard */; };
 		4C89416D1CFC48D50042E027 /* TaskNewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C89416C1CFC48D50042E027 /* TaskNewTests.m */; };
 		4C8941781CFC48D50042E027 /* TaskNewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8941771CFC48D50042E027 /* TaskNewUITests.m */; };
+		4C8941871CFC4A000042E027 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8941861CFC4A000042E027 /* SecondViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		4C8941731CFC48D50042E027 /* TaskNewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskNewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C8941771CFC48D50042E027 /* TaskNewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskNewUITests.m; sourceTree = "<group>"; };
 		4C8941791CFC48D50042E027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C8941851CFC4A000042E027 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		4C8941861CFC4A000042E027 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				4C8941601CFC48D40042E027 /* LaunchScreen.storyboard */,
 				4C8941631CFC48D40042E027 /* Info.plist */,
 				4C8941521CFC48D40042E027 /* Supporting Files */,
+				4C8941851CFC4A000042E027 /* SecondViewController.h */,
+				4C8941861CFC4A000042E027 /* SecondViewController.m */,
 			);
 			path = TaskNew;
 			sourceTree = "<group>";
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C8941871CFC4A000042E027 /* SecondViewController.m in Sources */,
 				4C89415A1CFC48D40042E027 /* ViewController.m in Sources */,
 				4C8941571CFC48D40042E027 /* AppDelegate.m in Sources */,
 				4C8941541CFC48D40042E027 /* main.m in Sources */,
